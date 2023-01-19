@@ -1,0 +1,72 @@
+.body {
+    padding: 0 120px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.navbar .menu-kiri {
+    padding: 20px;
+    background: red;
+    color: #ffffff;
+    border-radius: 0 20px 0 20px;
+}
+
+.navbar .menu-tengah {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.navbar .menu-tengah a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar .menu-kanan {
+    padding: 20px;
+    background: blue;
+    color: #ffffffff;
+    border-radius: 20px 0 20px 0;
+}
+
+.hero {
+    display: flex;
+    margin-top: 30px;
+}
+
+.hero .box-1 {
+    width: 600%;
+    height: 400px;
+    background: orangered;
+    line-height: 400px;
+    text-align: center;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero .box-2 {
+    width: 600%;
+    height: 400px;
+    background: aqua;
+    line-height: 400px;
+    text-align: center;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+}
+
+.footer {
+    margin-top: 40px;
+    padding: 20px;
+    background: royalblue;
+    text-align: center;
+    border-radius: 18px;
+    font-size: 20px;
+}
